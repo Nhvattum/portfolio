@@ -21,6 +21,9 @@ export default function Home() {
             <div>
             <h2>Recent Projects</h2>
                 <div>
+
+                
+
                     <h3>
                         <a href="https://nhvattum.github.io/Social-Distancing/">Social Distancing</a>
                     </h3>
