@@ -7,12 +7,14 @@ export default function Home() {
       <Head>
         <title>Nick Hvattum Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"></link>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>Hello, my name is Nick Hvattum</h1>
         <h2>I am a Software Engineer, Home Cook, and Neflix Junkie</h2>
         <h2>Find out more about <a href='/home'>Nick Hvattum</a></h2>
+        <i class="devicon-csharp-plain-wordmark colored"></i>
       </main>
       <footer className={styles.footer}>
           Powered by MyImagination
