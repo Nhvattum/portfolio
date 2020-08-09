@@ -1,3 +1,5 @@
+import Collapse from 'react-bootstrap/Collapse'
+
 export default function Home() {
     return (
         <div>
