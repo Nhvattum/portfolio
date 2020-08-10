@@ -22,15 +22,15 @@ export default function Navbar() {
                 </script>
                 <title>Nick Hvattum Portfolio</title>
             </Head>
-            <Nav className="justify-content-end" activeKey="/home">
+            <Nav className="justify-content-end navBar" activeKey="/home">
                 <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link className="navLink" href="/home">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/resume">Resume</Nav.Link>
+                    <Nav.Link className="navLink" href="/resume">Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/about">About Nick</Nav.Link>
+                    <Nav.Link className="navLink" href="/about">About Nick</Nav.Link>
                 </Nav.Item>
             </Nav>
         </div>

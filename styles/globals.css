@@ -13,21 +13,43 @@ body {
   text-align: center;
 }
 
+.navBar {
+  background: rgb(179, 179, 179);
+}
+
+.navLink {
+  color: darkslategrey;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* HOME PAGE */
+
+.homeSection {
+  padding-bottom: 80px;
+}
+
+.techSection {
+  background: rgb(60, 100, 25);
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+}
+
 .logoList {
-  display: flexbox;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .logo {
-  width: 10%;
+  width: 15%;
 }
-
 
 .recentProjects {
   display: flex;
