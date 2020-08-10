@@ -1,6 +1,6 @@
 import Head from 'next/head'
 // import {useEffect} from 'react'
-import {Nav} from 'react-bootstrap'
+import {Nav, Link, NavLink} from 'react-bootstrap'
 
 export default function Navbar() {
 
@@ -9,7 +9,7 @@ export default function Navbar() {
     // }, [])
 
     return (
-        <div>
+        <div className="navDiv">
             <Head>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
                 <script
@@ -22,7 +22,8 @@ export default function Navbar() {
                 </script>
                 <title>Nick Hvattum Portfolio</title>
             </Head>
-            <Nav className="justify-content-end navBar" activeKey="/home">
+            
+            <Nav className="justify-content-end navBar "activeKey="/home">
                 <Nav.Item>
                     <Nav.Link className="navLink" href="/home">Home</Nav.Link>
                 </Nav.Item>

@@ -11,14 +11,20 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-align: center;
+  background: rgb(60, 100, 25)
 }
+
 
 .navBar {
   background: rgb(179, 179, 179);
+  margin-left: -15vw;
+  margin-right: -15vw;
+  padding-right: 15vw;
+  height: 5em;
+  line-height: 5em;
 }
-
 .navLink {
-  color: darkslategrey;
+  color: black;
 }
 
 a {
@@ -27,14 +33,17 @@ a {
 }
 
 /* HOME PAGE */
+.home {
+  background: rgb(60, 100, 25);
+}
 
 .homeSection {
   padding-bottom: 80px;
 }
 
-.techSection {
+/* .techSection {
   background: rgb(60, 100, 25);
-}
+} */
 
 .technologies {
   display: flex;
