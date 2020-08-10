@@ -1,39 +1,38 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import {useEffect} from 'react'
+// import {useEffect} from 'react'
+import {Nav} from 'react-bootstrap'
 
 export default function Navbar() {
 
-    useEffect(() => {
-        document.getElementById('home').style.color = "hotpink";
-    }, [])
+    // useEffect(() => {
+    //     document.getElementById('home').style.color = "hotpink";
+    // }, [])
 
     return (
         <div>
             <Head>
-                <title>Nick Hvattum Portfolio</title>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
                 <script
-                src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-                crossorigin></script>
+                    src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+                    crossorigin>
+                </script>
                 <script
-                src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-                crossorigin></script>
+                    src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+                    crossorigin>
+                </script>
+                <title>Nick Hvattum Portfolio</title>
             </Head>
-            <navbar>
-                <ul>
-                    <li>
-                        <Link href="/">
-                            <a id='home'>Home</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/about">
-                            <a>About</a>
-                        </Link>
-                    </li>
-                </ul>
-            </navbar>
+            <Nav className="justify-content-end" activeKey="/home">
+                <Nav.Item>
+                    <Nav.Link href="/home">Home</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/resume">Resume</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/about">About Nick</Nav.Link>
+                </Nav.Item>
+            </Nav>
         </div>
     )
 }
