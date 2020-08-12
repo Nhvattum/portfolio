@@ -4,10 +4,10 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   width: 70vw;
-  display: flex;
+  /* display: flex;
   justify-self: center;
   align-self: center;
-  flex-direction: column;
+  flex-direction: column; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-align: center;
