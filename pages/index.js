@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import {Card} from 'react-bootstrap'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Nick Hvattum Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,14 +15,28 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Hello, my name is Nick Hvattum</h1>
-        <h2>I am a Software Engineer, Home Cook, and Neflix Junkie</h2>
-        <h2>Find out more about <a href='/home'>Nick Hvattum</a></h2>
-        <i className="devicon-csharp-plain-wordmark colored"></i>
+        {/* <div> */}
+          <Card style={{ width: '100%' }}>
+            <Card.Body>
+              <Card.Title>
+              <h1 className={styles.title}>Hello, my name is Nick Hvattum</h1>
+                <hr/>
+              </Card.Title>
+              <Card.Text>
+                <h2>I am a Software Engineer, Home Cook, and Neflix Junkie </h2>
+                <h2>Find out more about <a href='/home'>Nick Hvattum</a></h2>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          {/* <h1 className={styles.title}>Hello, my name is Nick Hvattum</h1>
+          <h2>I am a Software Engineer, Home Cook, and Neflix Junkie</h2>
+          <h2>Find out more about <a href='/home'>Nick Hvattum</a></h2>
+          <i className="devicon-csharp-plain-wordmark colored"></i> */}
+        {/* </div> */}
       </main>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
           Powered by MyImagination
-      </footer>
+      </footer> */}
     </div>
   )
 }

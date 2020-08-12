@@ -14,6 +14,14 @@ body {
   background: rgb(114, 153, 176);
 }
 
+
+/* ----------- LANDING PAGE --------------- */
+
+main {
+  background: rgb(114, 153, 176);
+  text-align: center;
+}
+
 .navBar {
   background: rgb(86, 116, 133);
   border-bottom: solid 3px rgb(67, 67, 67);
