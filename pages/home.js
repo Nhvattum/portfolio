@@ -2,7 +2,7 @@ import Navbar from '../components/navbar'
 import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 
 export default function Home() {
-    
+
     return (
         <div className="home">
             <Navbar />
@@ -65,10 +65,12 @@ export default function Home() {
                             <Card.Text className="logoList">
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Title>Stay Inside</Card.Title>
-                                    <Card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
+                                    <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
                                     <Card.Body>
                                         <Card.Text>
-                                        Mix It Up is a cocktail app that was created with HTML, CSS, JavaScript, Express, and sequelize before being deployed to Heroku. This web app allows users to search for and store cocktail recipes to their favorites list and create virtual pantries containing ingredients that they currently have.
+                                            Stay Inside is an social media app that was created with React using a MongoDB database.  This was a team project with two people working on the backend while I did the frontend with one other team member.
+                                            <br/><br/>
+                                            Stay Inside is an online event scheduling app for the social distancing age.  It allows users to post about online events that they will be hosting, and their friends can comment on 
                                         </Card.Text>
                                     </Card.Body>
                                     <ListGroup className="list-group-flush">

@@ -11,12 +11,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-align: center;
-  background: rgb(60, 100, 25)
+  background: rgb(114, 153, 176);
 }
 
-
 .navBar {
-  background: rgb(179, 179, 179);
+  background: rgb(86, 116, 133);
+  border-bottom: solid 3px rgb(67, 67, 67);
   margin-left: -15vw;
   margin-right: -15vw;
   padding-right: 15vw;
@@ -34,7 +34,7 @@ a {
 
 /* HOME PAGE */
 .home {
-  background: rgb(60, 100, 25);
+  background: rgb(114, 153, 176);
 }
 
 .homeSection {
