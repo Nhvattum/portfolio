@@ -20,8 +20,6 @@ export default function Home() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                {/* <h3>I am a Software Engineer motivated by utilizing my background in QA to achieve practical, precise solutions to technical problems. I enjoy using my unique background along with my technical skills to create software that will impact the life of the end user.
-                </h3> */}
             </div>
             <div className="homeSection techSection">
                 <div className="technologies">
@@ -44,7 +42,6 @@ export default function Home() {
                                 <img className="logo" src="/heroku.png" alt="heroku logo"></img>
                                 <img className="logo" src="/vscode.png" alt="visual studio code logo"></img>
                                 <img className="logo" src="/github.png" alt="github logo"></img>
-
                             </Card.Text>
                             Icons by
                             <Card.Link href="https://icons8.com/"> icons8</Card.Link>
@@ -63,7 +60,25 @@ export default function Home() {
                                 <hr/>
                             </Card.Title>
                             <Card.Text className="logoList">
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '25rem' }}>
+                                    <Card.Title>Insplore</Card.Title>
+                                    <Card.Img variant="top" src="/Insplore.png" alt="social distancing game screenshot" />
+                                    <Card.Body>
+                                        <Card.Text>
+                                            Insplore is the first place winning product of a 30 hour team based hackathon.  With nothing other than the prompt "Inspirational Wonder," my team of 3 developers and 2 UX designers created this proof of concept app that is a throw-back to spinning a globe as a kid, and randomly choosing a destination.
+                                            <br /><br />
+                                            This app was created using NextJS, React, MongoDB, and the MapBox API.  
+                                        </Card.Text>
+                                    </Card.Body>
+                                    <ListGroup className="list-group-flush">
+                                        <ListGroupItem>
+                                            <Card.Body>Check it out 
+                                                <Card.Link href="https://insplore.vercel.app/"> here</Card.Link>
+                                            </Card.Body>
+                                        </ListGroupItem>
+                                    </ListGroup>
+                                </Card>
+                                <Card style={{ width: '25rem' }}>
                                     <Card.Title>Stay Inside</Card.Title>
                                     <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
                                     <Card.Body>
@@ -75,14 +90,14 @@ export default function Home() {
                                     </Card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Try it out 
+                                            <Card.Body>Create your first event  
                                                 <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '25rem' }}>
                                     <Card.Title>Mix It Up</Card.Title>
                                     <Card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
                                     <Card.Body>
@@ -92,14 +107,14 @@ export default function Home() {
                                     </Card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Try it out 
+                                            <Card.Body>Find a new drink  
                                                 <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '25rem' }}>
                                     <Card.Title>Social Distancing</Card.Title>
                                     <Card.Img variant="top" src="/SocialDistancing.png" alt="social distancing game screenshot" />
                                     <Card.Body>
@@ -109,7 +124,7 @@ export default function Home() {
                                     </Card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Try it out 
+                                            <Card.Body>Play the game 
                                                 <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
@@ -121,9 +136,46 @@ export default function Home() {
                 </div>
             </div>
             <div className="homeSection">
-                <h1>Education</h1>
-                <hr/>
-            </div>   
+                <Card style={{ width: '100%' }}>
+                    <Card.Body>
+                        <Card.Title>
+                            <h1>Education</h1>
+                            <hr/>
+                        </Card.Title>
+                        <Card.Text className="logoList">
+                            <Card style={{ width: '50rem' }}>
+                                <Card.Title>General Assembly</Card.Title>
+                                Software Engineering Immersive
+                                <br />
+                                May 2020- August 2020
+                                <ul>
+                                    <li>
+                                        <Card.Text>
+                                            500 hours of full-time full-stack education in a remote setting
+                                        </Card.Text>
+                                    </li>
+                                    <li>
+                                        <Card.Text>
+                                            Provided experience with the latest front and back-end programming languages, tools, and methodologies
+                                        </Card.Text>
+                                    </li>
+                                    <li>
+                                        <Card.Text>
+                                            Included developing and deploying multiple projects both as part of a team as well as alone
+                                        </Card.Text>
+                                    </li>
+                                </ul>
+                            </Card>
+                            <Card style={{ width: '50rem' }}>
+                                <Card.Title>Everett Community College</Card.Title>
+                                Associate's of Arts and Sciences
+                                <br />
+                                2015- 2018
+                            </Card>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </div> 
         </div>
     )    
 }
