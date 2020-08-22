@@ -40,7 +40,7 @@ a {
   text-decoration: none;
 }
 
-/* HOME PAGE */
+/* ---------- HOME PAGE --------- */
 .home {
   background: rgb(114, 153, 176);
 }
@@ -74,6 +74,13 @@ a {
   flex-wrap: wrap;
 }
 
+
+/* -------- RESUME -------- */
+.resume {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 2em;
+}
 
 * {
   box-sizing: border-box;
