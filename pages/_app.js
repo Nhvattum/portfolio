@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head'
 
 export default function MyApp({ Component, pageProps }) {
@@ -10,14 +9,6 @@ export default function MyApp({ Component, pageProps }) {
         <title>Nick Hvattum Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"></link>
-        {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-        <script
-          src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-          crossorigin></script>
-        <script
-          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin></script> */}
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
