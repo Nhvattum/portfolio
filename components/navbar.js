@@ -33,7 +33,7 @@ export default function Navbar() {
                 </div>
                 <div className="navButtons">
                     <Nav.Item>
-                        <Nav.Link className="navLink" href="/home">Home</Nav.Link>
+                        <Nav.Link className="navLink" href="/">Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link className="navLink" href="/resume">Resume</Nav.Link>

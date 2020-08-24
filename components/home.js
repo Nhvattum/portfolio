@@ -1,6 +1,6 @@
-import Navbar from '../components/navbar'
+import Navbar from './navbar'
 import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
-import Footer from '../components/footer'
+import Footer from './footer'
 
 export default function Home() {
     return (
