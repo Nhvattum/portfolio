@@ -1,4 +1,3 @@
-// import {useEffect} from 'react'
 import {Nav, Link, NavLink} from 'react-bootstrap'
 
 export default function Navbar() {
@@ -9,11 +8,6 @@ export default function Navbar() {
             
             <Nav className="navBar "activeKey="/home">
                 <div className="favicon">
-                    {/* <Nav.Item>
-                        <Nav.Link className="navLink" href="/">
-                            <img src="favicon.ico" />
-                        </Nav.Link>
-                    </Nav.Item> */}
                 </div>
                 <div className="navButtons">
                     <Nav.Item>
