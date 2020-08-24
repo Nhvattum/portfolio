@@ -25,7 +25,7 @@ export default function Home() {
                         <Card.Title>
                             <div className="homeHeader">
                                 <h1 className="nickHvattum">NICK HVATTUM</h1>
-                                <img className="homePhoto" src="first-portfolio-photo.jpg" />
+                                <img className="homePhoto" src="newPhoto.jpg" />
                             </div>
                             <hr className="hrs"/>
                         </Card.Title>

@@ -81,7 +81,7 @@ a {
 }
 
 .nickHvattum {
-  font-size: 10vw;
+  font-size: 12vw;
 }
 
 .homePhoto {
@@ -166,4 +166,16 @@ a {
 
 .whoNick {
   text-align: center;
+}
+
+.aboutSection {
+  margin-top: 2em;
+  display: flex;
+}
+
+.codePhoto {
+  width: 45%;
+  height: auto;
+  border-radius: 2%;
+  margin-left: 1em;
 }
