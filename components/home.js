@@ -2,20 +2,10 @@ import Navbar from './navbar'
 import {ListGroup, ListGroupItem} from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 import Footer from './footer'
-// import Head from 'next/head'
 
 export default function Home() {
     return (
         <div className="home">
-            {/* <Head>
-                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet"/>
-                <title>Nick Hvattum Portfolio</title>
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"></link>
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
-
-            </Head> */}
-            
             <Navbar />
             <br/>
             
@@ -66,8 +56,6 @@ export default function Home() {
                 </div>    
             </div>
             <div className="homeSection">
-                {/* <h1>Recent Projects</h1>
-                <hr/> */}
                 <div className="recentProjects">
                     <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                         <Card.Body>
