@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Footer from './footer'
 
 export default function Home() {
+    
     return (
         <div className="home">
             <Navbar />
