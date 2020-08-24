@@ -1,10 +1,9 @@
 import Navbar from './navbar'
-import {ListGroup, ListGroupItem} from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
+import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
 import Footer from './footer'
 
 export default function Home() {
-    
+
     return (
         <div className="home">
             <Navbar />
