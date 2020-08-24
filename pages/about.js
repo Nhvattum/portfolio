@@ -1,11 +1,12 @@
 import Navbar from '../components/navbar'
 import Card from 'react-bootstrap/Card'
 
+
 export default function About() {
     return (
         <div className="about">
             <Navbar />
-            
+      
             <div className="aboutcard">
                 <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                     <Card.Body>
