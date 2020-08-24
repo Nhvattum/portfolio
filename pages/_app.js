@@ -1,9 +1,15 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return ( 
-    <Component {...pageProps} />
+    <div>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"/>
+      </Head>
+      <Component {...pageProps} />
+    </div>  
   )
 }
 

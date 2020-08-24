@@ -8,8 +8,9 @@ body {
   justify-self: center;
   align-self: center;
   flex-direction: column; */
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Do Hyeon', sans-serif;
   text-align: center;
   background: rgb(114, 153, 176);
 }
@@ -123,6 +124,18 @@ a {
   flex-wrap: wrap;
 }
 
+.project {
+  padding-top: "100px";
+}
+
+.projectTitle {
+  padding-top: .5em;
+  padding-left: 1em;
+}
+
+.projectLink {
+  background: rgba(255, 255, 255, 0.5);
+}
 
 /* -------- RESUME -------- */
 .resume {
@@ -133,4 +146,20 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ----------- ABOUT ----------- */
+
+.about {
+  background: rgb(114, 153, 176);
+}
+
+.aboutCard {
+  margin-top: 2em;
+}
+
+.aboutText {
+  text-align: start;
+  margin-bottom: 1em;
 }

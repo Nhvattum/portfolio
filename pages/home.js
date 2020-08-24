@@ -3,9 +3,9 @@ import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 import Footer from '../components/footer'
 
 export default function Home() {
-
     return (
         <div className="home">
+            
             <Navbar />
             <br/>
             
@@ -17,10 +17,12 @@ export default function Home() {
                                 <h1 className="nickHvattum">NICK HVATTUM</h1>
                                 <img className="homePhoto" src="first-portfolio-photo.jpg" />
                             </div>
-                            <hr/>
+                            <hr className="hrs"/>
                         </Card.Title>
                         <Card.Text className="logoList">
-                        I am a Software Engineer motivated by utilizing my background in QA to achieve practical, precise solutions to technical problems. I enjoy using my unique background along with my technical skills to create software that will impact the life of the end user.
+                        <h4>
+                            I am a Software Engineer motivated by utilizing my background in QA to achieve practical, precise solutions to technical problems. I enjoy using my unique background along with my technical skills to create software that will impact the life of the end user.
+                        </h4>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -64,8 +66,8 @@ export default function Home() {
                                 <hr/>
                             </Card.Title>
                             <Card.Text className="logoList">
-                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
-                                    <Card.Title>Insplore</Card.Title>
+                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <Card.Title className="projectTitle">Insplore</Card.Title>
                                     <Card.Img variant="top" src="/Insplore.png" alt="social distancing game screenshot" />
                                     <Card.Body>
                                         <Card.Text>
@@ -82,8 +84,8 @@ export default function Home() {
                                         </ListGroupItem>
                                     </ListGroup>
                                 </Card>
-                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
-                                    <Card.Title>Stay Inside</Card.Title>
+                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <Card.Title className="projectTitle">Stay Inside</Card.Title>
                                     <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
                                     <Card.Body>
                                         <Card.Text>
@@ -101,8 +103,8 @@ export default function Home() {
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
-                                    <Card.Title>Mix It Up</Card.Title>
+                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <Card.Title className="projectTitle">Mix It Up</Card.Title>
                                     <Card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
                                     <Card.Body>
                                         <Card.Text>
@@ -118,15 +120,15 @@ export default function Home() {
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
-                                    <Card.Title>Social Distancing</Card.Title>
+                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <Card.Title className="projectTitle">Social Distancing</Card.Title>
                                     <Card.Img variant="top" src="/SocialDistancing.png" alt="social distancing game screenshot" />
                                     <Card.Body>
                                         <Card.Text>
                                         Social Distancing is a dungeon crawler game created with HTML, CSS, and JavaScript.
                                         </Card.Text>
                                     </Card.Body>
-                                    <ListGroup className="list-group-flush">
+                                    <ListGroup className="list-group-flush projectLink">
                                         <ListGroupItem>
                                             <Card.Body>Play the game 
                                                 <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
@@ -147,7 +149,7 @@ export default function Home() {
                             <hr/>
                         </Card.Title>
                         <Card.Text className="logoList">
-                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)' }}>
+                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', padding: "1em" }}>
                                 <Card.Title>General Assembly</Card.Title>
                                 Software Engineering Immersive
                                 <br />
@@ -170,11 +172,17 @@ export default function Home() {
                                     </li>
                                 </ul>
                             </Card>
-                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)' }}>
+                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
                                 <Card.Title>Everett Community College</Card.Title>
                                 Associate's of Arts and Sciences
                                 <br />
                                 2015- 2018
+                            </Card>
+                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
+                                <Card.Title>Medisense Medical Coding</Card.Title>
+                                CPC-A (Certified Professional Coder)
+                                <br />
+                                2018
                             </Card>
                         </Card.Text>
                     </Card.Body>
