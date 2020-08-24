@@ -4,23 +4,14 @@ import {Nav, Link, NavLink} from 'react-bootstrap'
 
 export default function Navbar() {
 
-    // useEffect(() => {
-    //     document.getElementById('home').style.color = "hotpink";
-    // }, [])
 
     return (
         <div className="navDiv">
             <Head>
-                <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-                <script
-                    src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-                    crossorigin>
-                </script>
-                <script
-                    src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-                    crossorigin>
-                </script>
+                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet"/>
                 <title>Nick Hvattum Portfolio</title>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></link>
             </Head>
             
             <Nav className="navBar "activeKey="/home">
