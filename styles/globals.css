@@ -79,6 +79,21 @@ a {
   background: rgb(114, 153, 176);
 }
 
+.nickHvattum {
+  font-size: 10vw;
+}
+
+.homePhoto {
+  width: 20vw;
+  border-radius: 3%;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  text-align: e;
+}
+
 .homeSection {
   padding-bottom: 80px;
 }

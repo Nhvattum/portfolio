@@ -10,10 +10,13 @@ export default function Home() {
             <br/>
             
             <div className="homeSection">
-                <Card style={{ width: '100%' }}>
+                <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                     <Card.Body>
                         <Card.Title>
-                            <h1>NICK HVATTUM</h1>
+                            <div className="homeHeader">
+                                <h1 className="nickHvattum">NICK HVATTUM</h1>
+                                <img className="homePhoto" src="first-portfolio-photo.jpg" />
+                            </div>
                             <hr/>
                         </Card.Title>
                         <Card.Text className="logoList">
@@ -24,7 +27,7 @@ export default function Home() {
             </div>
             <div className="homeSection techSection">
                 <div className="technologies">
-                    <Card style={{ width: '100%' }}>
+                    <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                         <Card.Body>
                             <Card.Title>
                                 <h1>Technologies</h1>
@@ -54,14 +57,14 @@ export default function Home() {
                 {/* <h1>Recent Projects</h1>
                 <hr/> */}
                 <div className="recentProjects">
-                    <Card style={{ width: '100%' }}>
+                    <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                         <Card.Body>
                             <Card.Title>
                                 <h1>Recent Projects</h1>
                                 <hr/>
                             </Card.Title>
                             <Card.Text className="logoList">
-                                <Card style={{ width: '25rem' }}>
+                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                     <Card.Title>Insplore</Card.Title>
                                     <Card.Img variant="top" src="/Insplore.png" alt="social distancing game screenshot" />
                                     <Card.Body>
@@ -79,7 +82,7 @@ export default function Home() {
                                         </ListGroupItem>
                                     </ListGroup>
                                 </Card>
-                                <Card style={{ width: '25rem' }}>
+                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                     <Card.Title>Stay Inside</Card.Title>
                                     <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
                                     <Card.Body>
@@ -98,7 +101,7 @@ export default function Home() {
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '25rem' }}>
+                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                     <Card.Title>Mix It Up</Card.Title>
                                     <Card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
                                     <Card.Body>
@@ -115,7 +118,7 @@ export default function Home() {
                                     </ListGroup>
                                 </Card>
 
-                                <Card style={{ width: '25rem' }}>
+                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                     <Card.Title>Social Distancing</Card.Title>
                                     <Card.Img variant="top" src="/SocialDistancing.png" alt="social distancing game screenshot" />
                                     <Card.Body>
@@ -137,14 +140,14 @@ export default function Home() {
                 </div>
             </div>
             <div className="homeSection">
-                <Card style={{ width: '100%' }}>
+                <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
                     <Card.Body>
                         <Card.Title>
                             <h1>Education</h1>
                             <hr/>
                         </Card.Title>
                         <Card.Text className="logoList">
-                            <Card style={{ width: '50rem' }}>
+                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                 <Card.Title>General Assembly</Card.Title>
                                 Software Engineering Immersive
                                 <br />
@@ -167,7 +170,7 @@ export default function Home() {
                                     </li>
                                 </ul>
                             </Card>
-                            <Card style={{ width: '50rem' }}>
+                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)' }}>
                                 <Card.Title>Everett Community College</Card.Title>
                                 Associate's of Arts and Sciences
                                 <br />
