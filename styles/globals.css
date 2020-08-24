@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0 auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 70vw;
   /* display: flex;
   justify-self: center;
@@ -14,6 +14,27 @@ body {
   background: rgb(114, 153, 176);
 }
 
+/* ---------- FOOTER ---------- */
+.footer {
+  display: flex;
+  height: 1em;
+  margin-bottom: 0px;
+}
+
+.createdBy {
+  text-align: center;
+  width: 40vw;
+}
+
+.footerSide {
+  width: 15vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.githubLink {
+  padding-left: .5em;
+}
 
 /* ----------- LANDING PAGE --------------- */
 
@@ -25,12 +46,25 @@ main {
 .navBar {
   background: rgb(86, 116, 133);
   border-bottom: solid 3px rgb(67, 67, 67);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   margin-left: -15vw;
   margin-right: -15vw;
   padding-right: 15vw;
+  /* width: 70vw; */
   height: 5em;
   line-height: 5em;
 }
+
+.favicon {
+  margin-left: 14vw;
+}
+
+.navButtons {
+  display: flex;
+}
+
 .navLink {
   color: black;
 }

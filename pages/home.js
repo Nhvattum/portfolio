@@ -1,5 +1,6 @@
 import Navbar from '../components/navbar'
 import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
+import Footer from '../components/footer'
 
 export default function Home() {
 
@@ -176,6 +177,7 @@ export default function Home() {
                     </Card.Body>
                 </Card>
             </div> 
+            <Footer />
         </div>
     )    
 }

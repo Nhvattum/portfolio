@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {Card} from 'react-bootstrap'
+import Footer from '../components/footer'
 
 
 export default function Home() {
@@ -34,9 +35,7 @@ export default function Home() {
           <i className="devicon-csharp-plain-wordmark colored"></i> */}
         {/* </div> */}
       </main>
-      {/* <footer className={styles.footer}>
-          Powered by MyImagination
-      </footer> */}
+      <Footer />
     </div>
   )
 }
