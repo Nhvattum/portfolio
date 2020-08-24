@@ -97,7 +97,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
                                             <Card.Body>Create your first event  
-                                                <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
+                                                <Card.Link href="https://stay-inside.netlify.app/"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
@@ -180,7 +180,7 @@ export default function Home() {
                             </Card>
                             <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
                                 <Card.Title>Medisense Medical Coding</Card.Title>
-                                CPC-A (Certified Professional Coder)
+                                CPC-A (Certified Professional Coder through AAPC)
                                 <br />
                                 2018
                             </Card>
