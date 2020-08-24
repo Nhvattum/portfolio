@@ -1,5 +1,6 @@
 import Navbar from './navbar'
-import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
+import {ListGroup, ListGroupItem} from 'react-bootstrap'
+import Card from 'react-bootstrap/Card'
 import Footer from './footer'
 import Head from 'next/head'
 
