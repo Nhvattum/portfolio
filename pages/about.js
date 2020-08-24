@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar'
+import Navbar from '../components/navbar'
 import Card from 'react-bootstrap/Card'
 
 export default function About() {
