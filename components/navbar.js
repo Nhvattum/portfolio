@@ -1,4 +1,3 @@
-import Head from 'next/head'
 // import {useEffect} from 'react'
 import {Nav, Link, NavLink} from 'react-bootstrap'
 
@@ -7,12 +6,6 @@ export default function Navbar() {
 
     return (
         <div className="navDiv">
-            <Head>
-                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet"/>
-                <title>Nick Hvattum Portfolio</title>
-                <link rel="icon" href="/favicon.ico" />
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></link>
-            </Head>
             
             <Nav className="navBar "activeKey="/home">
                 <div className="favicon">
