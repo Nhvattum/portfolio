@@ -25,11 +25,11 @@ export default function Navbar() {
             
             <Nav className="navBar "activeKey="/home">
                 <div className="favicon">
-                    <Nav.Item>
+                    {/* <Nav.Item>
                         <Nav.Link className="navLink" href="/">
                             <img src="favicon.ico" />
                         </Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                 </div>
                 <div className="navButtons">
                     <Nav.Item>

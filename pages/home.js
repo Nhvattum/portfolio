@@ -89,7 +89,7 @@ export default function Home() {
                                     <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
                                     <Card.Body>
                                         <Card.Text>
-                                            Stay Inside is an social media app that was created with React using a MongoDB database.  This was a team project with two people working on the backend while I did the frontend with one other team member.
+                                            Stay Inside is a social media app that was created with React using a MongoDB database.  This was a team project with two people working on the backend while I did the frontend with one other team member.
                                             <br/><br/>
                                             Stay Inside is an online event scheduling app for the social distancing age.  It allows users to post about online events that they will be hosting, and their friends can comment on 
                                         </Card.Text>

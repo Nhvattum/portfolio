@@ -163,3 +163,7 @@ a {
   text-align: start;
   margin-bottom: 1em;
 }
+
+.whoNick {
+  text-align: center;
+}
