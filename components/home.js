@@ -1,6 +1,6 @@
 import Navbar from './navbar'
 import {ListGroup, ListGroupItem} from 'react-bootstrap'
-import Card from 'react-bootstrap/card'
+import card from 'react-bootstrap/card'
 import Footer from './footer'
 import Head from 'next/head'
 
@@ -20,32 +20,32 @@ export default function Home() {
             <br/>
             
             <div className="homeSection">
-                <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
-                    <Card.Body>
-                        <Card.Title>
+                <card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
+                    <card.Body>
+                        <card.Title>
                             <div className="homeHeader">
                                 <h1 className="nickHvattum">NICK HVATTUM</h1>
                                 <img className="homePhoto" src="first-portfolio-photo.jpg" />
                             </div>
                             <hr className="hrs"/>
-                        </Card.Title>
-                        <Card.Text className="logoList">
+                        </card.Title>
+                        <card.Text className="logoList">
                         <h4>
                             I am a Software Engineer motivated by utilizing my background in QA to achieve practical, precise solutions to technical problems. I enjoy using my unique background along with my technical skills to create software that will impact the life of the end user.
                         </h4>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                        </card.Text>
+                    </card.Body>
+                </card>
             </div>
             <div className="homeSection techSection">
                 <div className="technologies">
-                    <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
-                        <Card.Body>
-                            <Card.Title>
+                    <card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
+                        <card.Body>
+                            <card.Title>
                                 <h1>Technologies</h1>
                                     <hr/>
-                            </Card.Title>
-                            <Card.Text className="logoList">
+                            </card.Title>
+                            <card.Text className="logoList">
                                 <img className="logo" src="/html-5.png" alt="html-5 logo"></img>
                                 <img className="logo" src="/javascript.png" alt="javascript logo"></img>
                                 <img className="logo" src="/css.png" alt="CSS logo"></img>
@@ -58,143 +58,143 @@ export default function Home() {
                                 <img className="logo" src="/heroku.png" alt="heroku logo"></img>
                                 <img className="logo" src="/vscode.png" alt="visual studio code logo"></img>
                                 <img className="logo" src="/github.png" alt="github logo"></img>
-                            </Card.Text>
+                            </card.Text>
                             Icons by
-                            <Card.Link href="https://icons8.com/"> icons8</Card.Link>
-                        </Card.Body>
-                    </Card>
+                            <card.Link href="https://icons8.com/"> icons8</card.Link>
+                        </card.Body>
+                    </card>
                 </div>    
             </div>
             <div className="homeSection">
                 <div className="recentProjects">
-                    <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
-                        <Card.Body>
-                            <Card.Title>
+                    <card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
+                        <card.Body>
+                            <card.Title>
                                 <h1>Recent Projects</h1>
                                 <hr/>
-                            </Card.Title>
-                            <Card.Text className="logoList">
-                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
-                                    <Card.Title className="projectTitle">Insplore</Card.Title>
-                                    <Card.Img variant="top" src="/Insplore.png" alt="social distancing game screenshot" />
-                                    <Card.Body>
-                                        <Card.Text>
+                            </card.Title>
+                            <card.Text className="logoList">
+                                <card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <card.Title className="projectTitle">Insplore</card.Title>
+                                    <card.Img variant="top" src="/Insplore.png" alt="social distancing game screenshot" />
+                                    <card.Body>
+                                        <card.Text>
                                             Insplore is the first place winning product of a 30 hour team based hackathon.  With nothing other than the prompt "Inspirational Wonder," my team of 3 developers and 2 UX designers created this proof of concept app that is a throw-back to spinning a globe as a kid, and randomly choosing a destination.
                                             <br /><br />
                                             This app was created using NextJS, React, MongoDB, and the MapBox API.  
-                                        </Card.Text>
-                                    </Card.Body>
+                                        </card.Text>
+                                    </card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Check it out 
-                                                <Card.Link href="https://insplore.vercel.app/"> here</Card.Link>
-                                            </Card.Body>
+                                            <card.Body>Check it out 
+                                                <card.Link href="https://insplore.vercel.app/"> here</card.Link>
+                                            </card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
-                                </Card>
-                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
-                                    <Card.Title className="projectTitle">Stay Inside</Card.Title>
-                                    <Card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
-                                    <Card.Body>
-                                        <Card.Text>
+                                </card>
+                                <card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <card.Title className="projectTitle">Stay Inside</card.Title>
+                                    <card.Img variant="top" src="/StayInside.png" alt="stay inside app screenshot" />
+                                    <card.Body>
+                                        <card.Text>
                                             Stay Inside is a social media app that was created with React using a MongoDB database.  This was a team project with two people working on the backend while I did the frontend with one other team member.
                                             <br/><br/>
                                             Stay Inside is an online event scheduling app for the social distancing age.  It allows users to post about online events that they will be hosting, and their friends can comment on 
-                                        </Card.Text>
-                                    </Card.Body>
+                                        </card.Text>
+                                    </card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Create your first event  
-                                                <Card.Link href="https://stay-inside.netlify.app/"> here</Card.Link>
-                                            </Card.Body>
+                                            <card.Body>Create your first event  
+                                                <card.Link href="https://stay-inside.netlify.app/"> here</card.Link>
+                                            </card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
-                                </Card>
+                                </card>
 
-                                <Card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
-                                    <Card.Title className="projectTitle">Mix It Up</Card.Title>
-                                    <Card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
-                                    <Card.Body>
-                                        <Card.Text>
+                                <card className="project" style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <card.Title className="projectTitle">Mix It Up</card.Title>
+                                    <card.Img variant="top" src="/MixItUp.png" alt="mix it up cocktail app screenshot" />
+                                    <card.Body>
+                                        <card.Text>
                                         Mix It Up is a cocktail app that was created with HTML, CSS, JavaScript, Express, and sequelize before being deployed to Heroku. This web app allows users to search for and store cocktail recipes to their favorites list and create virtual pantries containing ingredients that they currently have.
-                                        </Card.Text>
-                                    </Card.Body>
+                                        </card.Text>
+                                    </card.Body>
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
-                                            <Card.Body>Find a new drink  
-                                                <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
-                                            </Card.Body>
+                                            <card.Body>Find a new drink  
+                                                <card.Link href="https://mix-it-up-nh.herokuapp.com"> here</card.Link>
+                                            </card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
-                                </Card>
+                                </card>
 
-                                <Card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
-                                    <Card.Title className="projectTitle">Social Distancing</Card.Title>
-                                    <Card.Img variant="top" src="/SocialDistancing.png" alt="social distancing game screenshot" />
-                                    <Card.Body>
-                                        <Card.Text>
+                                <card style={{ width: '25rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: '2em' }}>
+                                    <card.Title className="projectTitle">Social Distancing</card.Title>
+                                    <card.Img variant="top" src="/SocialDistancing.png" alt="social distancing game screenshot" />
+                                    <card.Body>
+                                        <card.Text>
                                         Social Distancing is a dungeon crawler game created with HTML, CSS, and JavaScript.
-                                        </Card.Text>
-                                    </Card.Body>
+                                        </card.Text>
+                                    </card.Body>
                                     <ListGroup className="list-group-flush projectLink">
                                         <ListGroupItem>
-                                            <Card.Body>Play the game 
-                                                <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
-                                            </Card.Body>
+                                            <card.Body>Play the game 
+                                                <card.Link href="https://mix-it-up-nh.herokuapp.com"> here</card.Link>
+                                            </card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
-                                </Card>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>  
+                                </card>
+                            </card.Text>
+                        </card.Body>
+                    </card>  
                 </div>
             </div>
             <div className="homeSection">
-                <Card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
-                    <Card.Body>
-                        <Card.Title>
+                <card style={{ width: '100%', background: 'rgba(255, 255, 255, 0.5)' }}>
+                    <card.Body>
+                        <card.Title>
                             <h1>Education</h1>
                             <hr/>
-                        </Card.Title>
-                        <Card.Text className="logoList">
-                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', padding: "1em" }}>
-                                <Card.Title>General Assembly</Card.Title>
+                        </card.Title>
+                        <card.Text className="logoList">
+                            <card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', padding: "1em" }}>
+                                <card.Title>General Assembly</card.Title>
                                 Software Engineering Immersive
                                 <br />
                                 May 2020- August 2020
                                 <ul>
                                     <li>
-                                        <Card.Text>
+                                        <card.Text>
                                             500 hours of full-time full-stack education in a remote setting
-                                        </Card.Text>
+                                        </card.Text>
                                     </li>
                                     <li>
-                                        <Card.Text>
+                                        <card.Text>
                                             Provided experience with the latest front and back-end programming languages, tools, and methodologies
-                                        </Card.Text>
+                                        </card.Text>
                                     </li>
                                     <li>
-                                        <Card.Text>
+                                        <card.Text>
                                             Included developing and deploying multiple projects both as part of a team as well as alone
-                                        </Card.Text>
+                                        </card.Text>
                                     </li>
                                 </ul>
-                            </Card>
-                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
-                                <Card.Title>Everett Community College</Card.Title>
+                            </card>
+                            <card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
+                                <card.Title>Everett Community College</card.Title>
                                 Associate's of Arts and Sciences
                                 <br />
                                 2015- 2018
-                            </Card>
-                            <Card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
-                                <Card.Title>Medisense Medical Coding</Card.Title>
+                            </card>
+                            <card style={{ width: '50rem', background: 'rgba(255, 255, 255, 0.5)', marginTop: "1em", padding: "1em" }}>
+                                <card.Title>Medisense Medical Coding</card.Title>
                                 CPC-A (Certified Professional Coder through AAPC)
                                 <br />
                                 2018
-                            </Card>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                            </card>
+                        </card.Text>
+                    </card.Body>
+                </card>
             </div> 
             <Footer />
         </div>
