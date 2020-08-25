@@ -25,7 +25,9 @@ export default function About() {
                                     <h3 className="aboutText">After taking a few free coding courses online, I knew I was hooked and had to learn more. Coding is the perfect balance between problem solving when bugs occur, and being creative and inventive.  I have grown very passionate about it, and I am excited to use this new skill to impact the lives of others.  </h3>
                                 </Card.Text>
                             </div> 
-                            <img className="codePhoto" src="codePhoto.png" />   
+                            <div className="aboutPhoto">
+                                <img className="closeUp" src="closeUp.jpg" />   
+                            </div>    
                         </div>    
                     </Card.Body>
                 </Card>
