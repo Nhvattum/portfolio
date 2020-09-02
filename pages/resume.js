@@ -3,11 +3,11 @@ import Footer from '../components/footer'
 
 export default function Resume() {
     return(
-        <div className="home">
+        <div className="resumeDiv">
             <Navbar />
-            <img className="resume" src="/resume1.png" />
-            <img className="resume" src="/resume2.png" />
-            {/* <object className="resume" data="/Nick Hvattum Resume.pdf#view=FitH#toolbar=0#scrollbar=0"/> */}
+            {/* <img className="resume" src="/resume1.png" />
+            <img className="resume" src="/resume2.png" /> */}
+            <object className="pdf" data="/Nick Hvattum Resume.pdf#view=FitH"/>
             <Footer />
         </div>
     )

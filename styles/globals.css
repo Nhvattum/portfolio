@@ -20,6 +20,9 @@ body {
   display: flex;
   height: 1em;
   margin-bottom: 0px;
+  /* position: relative;
+  bottom: 0; */
+  
 }
 
 .createdBy {
@@ -96,7 +99,7 @@ a {
 }
 
 .homeSection {
-  padding-bottom: 80px;
+  padding-bottom: 2em;
 }
 
 /* .techSection {
@@ -138,16 +141,21 @@ a {
 }
 
 /* -------- RESUME -------- */
+.resumeDiv {
+  background: rgb(114, 153, 176);
+  height: 90vw;
+}
+
 .resume {
   width: 70vw;
   margin: 0 auto;
   margin-top: 2em;
 }
-/* 
+
 .pdf {
   width: 100%;
-  height: 100%;
-} */
+  height: 100vw;
+}
 
 * {
   box-sizing: border-box;
@@ -208,5 +216,17 @@ a {
     width: 100%;
     margin: 0 auto;
   }
-  .aboutBody {}
+  .homeHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homePhoto {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .nickHvattum {
+    font-size: 15vw;
+    text-align: center;
+  }
 }
