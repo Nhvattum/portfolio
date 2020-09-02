@@ -133,7 +133,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush projectLink">
                                         <ListGroupItem>
                                             <Card.Body>Play the game 
-                                                <Card.Link className="projectLinks" href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
+                                                <Card.Link className="projectLinks" href="https://nhvattum.github.io/Social-Distancing/"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
