@@ -81,7 +81,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
                                             <Card.Body>Check it out 
-                                                <Card.Link href="https://insplore.vercel.app/"> here</Card.Link>
+                                                <Card.Link className="projectLinks" href="https://insplore.vercel.app/"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
@@ -99,7 +99,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
                                             <Card.Body>Create your first event  
-                                                <Card.Link href="https://stay-inside.netlify.app/"> here</Card.Link>
+                                                <Card.Link className="projectLinks" href="https://stay-inside.netlify.app/"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
@@ -116,7 +116,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush">
                                         <ListGroupItem>
                                             <Card.Body>Find a new drink  
-                                                <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
+                                                <Card.Link className="projectLinks" href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>
@@ -133,7 +133,7 @@ export default function Home() {
                                     <ListGroup className="list-group-flush projectLink">
                                         <ListGroupItem>
                                             <Card.Body>Play the game 
-                                                <Card.Link href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
+                                                <Card.Link className="projectLinks" href="https://mix-it-up-nh.herokuapp.com"> here</Card.Link>
                                             </Card.Body>
                                         </ListGroupItem>
                                     </ListGroup>

@@ -119,6 +119,7 @@ a {
 
 .logo {
   width: 15%;
+  height: auto;
 }
 
 .recentProjects {
@@ -138,6 +139,10 @@ a {
 
 .projectLink {
   background: rgba(255, 255, 255, 0.5);
+}
+
+.projectLinks {
+  color: blue;
 }
 
 /* -------- RESUME -------- */
