@@ -5,8 +5,12 @@ export default function Resume() {
   return (
     <div className="resumeDiv">
       <Navbar />
-      <img className="resume" src="/newResumePage1.png" />
-      <img className="resume" src="/newResumePage2.png" />
+      {/* <div className="imgDiv"> */}
+        <img className="resume1" src="/resume_page_1.png" />
+      {/* </div> */}
+      {/* <div className="imgDiv"> */}
+        <img className="resume2" src="/resume_page_2.png" />
+      {/* </div> */}
       {/* <object className="pdf" data="/Nick Hvattum Resume.pdf#view=FitH"/> */}
       <Footer />
     </div>
